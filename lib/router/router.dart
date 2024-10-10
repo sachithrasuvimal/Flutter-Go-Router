@@ -1,15 +1,15 @@
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 import 'package:gorouter/models/product.dart';
-import 'package:gorouter/pages/age_page.dart';
-import 'package:gorouter/pages/back.dart';
-import 'package:gorouter/pages/child_page.dart';
-import 'package:gorouter/pages/home_page.dart';
-import 'package:gorouter/pages/login.dart';
-import 'package:gorouter/pages/products_page.dart';
-import 'package:gorouter/pages/profile_page.dart';
-import 'package:gorouter/pages/single_product_page.dart';
-import 'package:gorouter/pages/user_page.dart';
+import 'package:gorouter/page/age_page.dart';
+import 'package:gorouter/page/back.dart';
+import 'package:gorouter/page/child_page.dart';
+import 'package:gorouter/page/home_page.dart';
+import 'package:gorouter/page/login.dart';
+import 'package:gorouter/page/products_page.dart';
+import 'package:gorouter/page/profile_page.dart';
+import 'package:gorouter/page/single_product.dart';
+import 'package:gorouter/page/user_page.dart';
 import 'package:gorouter/router/route_names.dart';
 
 class RouterClass {
