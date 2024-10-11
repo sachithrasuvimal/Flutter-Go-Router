@@ -13,6 +13,12 @@ class Productspage extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: const Text("All Products"),
+        leading: IconButton(
+          icon: const Icon(Icons.arrow_back),
+          onPressed: () {
+            GoRouter.of(context).go('/');
+          },
+        ),
       ),
       body: ListView.builder(
         itemCount: productsList.length,
